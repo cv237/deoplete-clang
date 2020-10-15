@@ -1,8 +1,8 @@
 #include <Block.h>
 #include <dispatch/dispatch.h>
 
-int f(int x) {
-  int result = (x / 42);
+int f(int y) {
+  int result = (y / 42);
   dispatch_main();
 
   return result;
